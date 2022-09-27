@@ -14,5 +14,5 @@ export OPENAI_API_TOKEN=<your_api_token>
 Use `robo`:
 ```shell
 $ robo show process that is using port 8080
-lsof -i :1025
+lsof -i :8080
 ```
